@@ -1,0 +1,206 @@
+[
+  {
+    "semester": "Winter 2024/25",
+    "courses": [
+      {
+        "code": "W08IST-SI4002W",
+        "name": "Basics of Entrepreneurship",
+        "type_hours": "w 30",
+        "grade": 5.5,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4018W",
+        "name": "Computer Networks",
+        "type_hours": "w 45",
+        "grade": 5.0,
+        "ects": 4
+      },
+      {
+        "code": "W04IST-SI4018L",
+        "name": "Computer Networks",
+        "type_hours": "l 30",
+        "grade": 3.0,
+        "ects": 3
+      },
+      {
+        "code": "W04IST-SI4019W",
+        "name": "Effective Programming Techniques",
+        "type_hours": "w 15",
+        "grade": 5.0,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4019L",
+        "name": "Effective Programming Techniques",
+        "type_hours": "l 30",
+        "grade": 2.0,
+        "ects": 3
+      },
+      {
+        "code": "SWF000-S06025C",
+        "name": "Futsal",
+        "type_hours": "c 30",
+        "grade": 5.0,
+        "ects": 0
+      },
+      {
+        "code": "SJ0000-SI0034C",
+        "name": "Polish Language A1 Erasmus/Full time",
+        "type_hours": "c 60",
+        "grade": 5.0,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4020G",
+        "name": "Programming Paradigms",
+        "type_hours": "w 30 / c 15",
+        "grade": 5.0,
+        "ects": 5
+      },
+      {
+        "code": "W04IST-SI4020L",
+        "name": "Programming Paradigms",
+        "type_hours": "l 30",
+        "grade": 5.0,
+        "ects": 2
+      },
+      {
+        "code": "W08IST-SI4007G",
+        "name": "Theory of Probabilistics and Statistics",
+        "type_hours": "w 30 / c 30",
+        "grade": 4.0,
+        "ects": 7
+      }
+    ]
+  },
+  {
+    "semester": "Summer 2023/24",
+    "courses": [
+      {
+        "code": "W04IST-SI4016L",
+        "name": "Computer Architecture",
+        "type_hours": "l 30",
+        "grade": 5.0,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4016W",
+        "name": "Computer Architecture",
+        "type_hours": "w 30",
+        "grade": 5.0,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4015G",
+        "name": "Data Structures and Algorithms",
+        "type_hours": "w 30 / c 15",
+        "grade": 4.5,
+        "ects": 4
+      },
+      {
+        "code": "W04IST-SI4015L",
+        "name": "Data Structures and Algorithms",
+        "type_hours": "l 30",
+        "grade": 4.5,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4006G",
+        "name": "Discrete Mathematics",
+        "type_hours": "w 30 / c 30",
+        "grade": 5.0,
+        "ects": 5
+      },
+      {
+        "code": "W11IST-SI4002L",
+        "name": "General Physics II",
+        "type_hours": "l 15",
+        "grade": 4.0,
+        "ects": 2
+      },
+      {
+        "code": "W11IST-SI4002G",
+        "name": "General Physics II",
+        "type_hours": "w 30 / c 15",
+        "grade": 4.0,
+        "ects": 4
+      },
+      {
+        "code": "W13IST-SI4003G",
+        "name": "Mathematical Analysis II",
+        "type_hours": "w 30 / c 15",
+        "grade": 2.0,
+        "ects": 5
+      },
+      {
+        "code": "W04IST-SI4017L",
+        "name": "Operating Systems",
+        "type_hours": "l 30",
+        "grade": 5.5,
+        "ects": 2
+      },
+      {
+        "code": "W04IST-SI4017W",
+        "name": "Operating Systems",
+        "type_hours": "w 30",
+        "grade": 5.5,
+        "ects": 2
+      }
+    ]
+  },
+  {
+    "semester": "Winter 2023/24",
+    "courses": [
+      {
+        "code": "W13IST-SI4001G",
+        "name": "Algebra and Analytic Geometry",
+        "type_hours": "w 30 / c 30",
+        "grade": 4.5,
+        "ects": 6
+      },
+      {
+        "code": "W04IST-SI4004G",
+        "name": "Computer System Organization",
+        "type_hours": "w 30 / c 15",
+        "grade": 5.0,
+        "ects": 3
+      },
+      {
+        "code": "W11IST-SI4001G",
+        "name": "General Physics I",
+        "type_hours": "w 30 / c 15",
+        "grade": 3.5,
+        "ects": 4
+      },
+      {
+        "code": "W04IST-SI4005G",
+        "name": "Logic for IT Specialists",
+        "type_hours": "w 30 / c 30",
+        "grade": 5.5,
+        "ects": 5
+      },
+      {
+        "code": "W13IST-SI4002G",
+        "name": "Mathematical Analysis I",
+        "type_hours": "w 30 / c 30",
+        "grade": 3.0,
+        "ects": 6
+      },
+      {
+        "code": "W04IST-SI4014G",
+        "name": "Structural and Object oriented Programming",
+        "type_hours": "w 30 / c 30",
+        "grade": 5.5,
+        "ects": 4
+      },
+      {
+        "code": "W04IST-SI4014L",
+        "name": "Structural and Object oriented Programming",
+        "type_hours": "l 30",
+        "grade": 5.5,
+        "ects": 2
+      }
+    ]
+  }
+]
