@@ -1,4 +1,5 @@
 import json
+from fpdf import FPDF
 
 # Load json file
 def load_json():
@@ -49,44 +50,27 @@ def main():
     for semester in each_semester_gpa:
         print(f"Semester: {semester['semester']}   GPA: {semester['GPA']}")
 
+    pdf = FPDF()
+    pdf.add_page()
+    pdf.set_font("Arial", size=12)
+    pdf.cell(200, 10, "GPA CALCULATOR", align="C", ln=True)
+    pdf.ln(10)
+
+    pdf.cell(40, 10, f"Total GPA: {total_gpa}", ln=True)
+
+    pdf.cell(40, 10, "Semester", 1)
+    pdf.cell(40, 10, "GPA", 1)
+    pdf.ln(10)
+
+    for semester in each_semester_gpa:
+        pdf.cell(40, 10, str(semester['semester']), 1)
+        pdf.cell(40, 10, str(semester['GPA']), 1)
+        pdf.ln(10)
+    
+    pdf.output("gpa.pdf")
+
+    
+
 
 if __name__=="__main__":
     main()
-
-
-
-"""
-Here are some feature ideas you can add to your GPA calculator:
-
-Per-Semester GPA Calculation:
-Show GPA for each semester, not just the overall GPA.
-
-Course Filtering:
-Allow users to filter courses by semester, grade, or ECTS.
-
-Grade Distribution:
-Display statistics or charts showing grade distribution.
-
-Best/Worst Course Finder:
-Highlight courses with the highest and lowest grades.
-
-Course Addition/Editing:
-Let users add, edit, or remove courses directly from the program.
-
-Support for Different Grading Scales:
-Allow conversion between different grading systems (e.g., 1-5, A-F).
-
-Export Results:
-Export GPA and course data to a CSV or PDF file.
-
-User Interface:
-Add a simple GUI using Tkinter or a web interface with Flask.
-
-Pass/Fail Summary:
-Show how many courses were passed or failed.
-
-What-If Analysis:
-Let users simulate how future grades would affect their GPA.
-
-Let me know if you want details on how to implement any of these!
-"""
